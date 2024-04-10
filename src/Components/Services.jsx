@@ -26,7 +26,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-r from-[#2A1535] via-[rgb(42,21,53)] to-[#261865] text-white p-8">
+    <div id='services' className="bg-gradient-to-r from-[#2A1535] via-[rgb(42,21,53)] to-[#261865] text-white p-8">
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center">Our Services Includes</h1>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
         {services.map((service, index) => (

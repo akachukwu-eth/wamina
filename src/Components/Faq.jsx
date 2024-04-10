@@ -28,7 +28,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-[#2A1535] via-[#2A1535] to-[#261865] py-16">
+    <div id='faq' className="bg-gradient-to-r from-[#2A1535] via-[#2A1535] to-[#261865] py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold text-white mb-8 text-center">FAQ</h2>
         <div className="space-y-4">

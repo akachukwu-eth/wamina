@@ -11,7 +11,7 @@ const Header = () => {
     <nav className="bg-gradient-to-r from-[#2A1535] via-[#2A1535] to-[#65185B] py-2 md:py-4 sticky top-0 z-50 overflow-y-hidden">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <div className="mt-4 ml-4 text-white font-bold text-2xl">
-          <a href="#">Wanmina</a>
+          <a href="/">Wanmina</a>
         </div>
         <button
           className="mr-4 lg:hidden text-white focus:outline-none transition-colors duration-300"
@@ -43,19 +43,19 @@ const Header = () => {
         >
           <div className="md:flex flex-col md:flex-row md:items-center md:justify-start w-full md:w-auto">
             <div className="mx-10 my-2 md:my-2 text-white font-medium">
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </div>
             <div className="mx-10 my-2 md:my-2 text-white font-medium">
               <a href="#about">About Us</a>
             </div>
             <div className="mx-10 my-2 md:my-2 text-white font-medium">
-              <a href="#">Services</a>
+              <a href="#services">Services</a>
             </div>
             <div className="mx-10 my-2 md:my-2 text-white font-medium">
-              <a href="#">Team</a>
+              <a href="#team">Team</a>
             </div>
             <div className="mx-10 my-2 md:my-2 text-white font-medium">
-              <a href="#">FAQ</a>
+              <a href="#faq">FAQ</a>
             </div>
             <div className="mx-10 my-2 md:my-2">
               <button className="bg-gradient-to-r from-[#261865] to-[#65185B] hover:from-pink-600 hover:to-pink-700 text-white py-2 px-4 rounded transition-colors duration-300">

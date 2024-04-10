@@ -3,7 +3,7 @@ import teamImage from '../assets/team-image.png';
 
 const AboutSection = () => {
   return (
-    <div className="bg-gradient-to-r from-[#2A1535] via-[#2A1535] to-[#261865] py-16 px-8 overflow-y-hidden">
+    <div id='about' className="bg-gradient-to-r from-[#2A1535] via-[#2A1535] to-[#261865] py-16 px-8 overflow-y-hidden">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">About Wanmina</h2>
