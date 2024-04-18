@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ const Header = () => {
     <nav className="bg-gradient-to-r from-[#2A1535] via-[#2A1535] to-[#65185B] py-2 md:py-4 sticky top-0 z-50 overflow-y-hidden">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <div className="mt-4 ml-4 text-white font-bold text-2xl">
-          <a href="/">Wanmina</a>
+          <Link to="/">Wanmina</Link>
         </div>
         <button
           className="mr-4 lg:hidden text-white focus:outline-none transition-colors duration-300"
@@ -43,13 +44,13 @@ const Header = () => {
         >
           <div className="md:flex flex-col md:flex-row md:items-center md:justify-start w-full md:w-auto">
             <div className="mx-10 my-2 md:my-2 text-white font-medium">
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </div>
             <div className="mx-10 my-2 md:my-2 text-white font-medium">
               <a href="#about">About Us</a>
             </div>
             <div className="mx-10 my-2 md:my-2 text-white font-medium">
-              <a href="#services">Services</a>
+              <Link to="/services">Services</Link>
             </div>
             <div className="mx-10 my-2 md:my-2 text-white font-medium">
               <a href="#team">Team</a>
