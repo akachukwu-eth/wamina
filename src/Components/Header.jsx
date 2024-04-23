@@ -38,9 +38,8 @@ const Header = () => {
           </svg>
         </button>
         <div
-          className={`${
-            isMenuOpen ? 'block' : 'hidden'
-          } md:flex md:items-center w-full md:w-auto overflow-hidden md:overflow-visible transition-max-height duration-500 ease-in-out`}
+          className={`${isMenuOpen ? 'block' : 'hidden'
+            } md:flex md:items-center w-full md:w-auto overflow-hidden md:overflow-visible transition-max-height duration-500 ease-in-out`}
         >
           <div className="md:flex flex-col md:flex-row md:items-center md:justify-start w-full md:w-auto">
             <div className="mx-10 my-2 md:my-2 text-white font-medium">
@@ -60,7 +59,7 @@ const Header = () => {
             </div>
             <div className="mx-10 my-2 md:my-2">
               <button className="bg-gradient-to-r from-[#261865] to-[#65185B] hover:from-pink-600 hover:to-pink-700 text-white py-2 px-4 rounded transition-colors duration-300">
-                Contact Us
+                <Link to="/contact">Contact Us</Link>
               </button>
             </div>
           </div>
