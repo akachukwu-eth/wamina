@@ -1,5 +1,6 @@
 import React from 'react';
-import teamImage from '../assets/wimaa.png';
+import teamImage from '../assets/team.jpeg';
+
 
 
 const TeamSection = () => {
