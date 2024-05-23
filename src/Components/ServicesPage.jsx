@@ -36,27 +36,50 @@ const ServicesPage = () => {
       </div>
 
       <div className="bg-gradient-to-r from-[#2A1535] via-[#2A1535] to-[#261865] text-white py-24 px-4">
-        <div className="max-w-4xl mx-auto my-4 mr-8">
-          <h2 className="text-white text-3xl font-bold mb-4">Social Media Management</h2>
-          <p className="text-gray-300 text-lg">
-            We can manage your social media communities to ensure the consistent release of content, replying to comments, and handling all necessary public relations duties. we also curb misinformation, educate your users, and help you control the narrative of your project.
-          </p>
+        <div className="container mx-auto">
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-16">
+            <div className="overflow-hidden">
+              <img src={commGrowth} alt="Social Media Management" className="max-w-sm mx-auto rounded-md" />
+            </div>
+            <div className="mb-8 lg:mb-0">
+              <h2 className="text-white text-3xl font-bold mb-4">Social Media Management</h2>
+              <p className="text-gray-300 text-lg max-w-lg">
+                We can manage your social media communities to ensure the consistent release of content, replying to comments, and handling all necessary public relations duties. we also curb misinformation, educate your users, and help you control the narrative of your project.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+
       <div className="bg-gradient-to-r from-[#261865] via-[#2A1535] to-[#2A1535] text-white py-24 px-4">
-        <div className="max-w-4xl mx-auto my-4">
-          <h2 className="text-white text-3xl font-bold mb-4">Automated Community Moderation & Security</h2>
-          <p className="text-gray-300 text-lg">
-            We use bots to guard your community. They work tirelessly to keep your community safe and welcoming, flagging and quarantining bad behavior as soon as it appears. They also secure your community platforms from malicious attacks, so you can focus on building a thriving community.
-          </p>
+        <div className="container mx-auto">
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-16">
+            <div className="mb-8 lg:mb-0">
+              <h2 className="text-white text-3xl font-bold mb-4">Automated Community Moderation & Security</h2>
+              <p className="text-gray-300 text-lg max-w-lg">
+                We use bots to guard your community. They work tirelessly to keep your community safe and welcoming, flagging and quarantining bad behavior as soon as it appears. They also secure your community platforms from malicious attacks, so you can focus on building a thriving community.
+              </p>
+            </div>
+            <div className="overflow-hidden">
+              <img src={commGrowth} alt="Automated Community Moderation & Security" className="max-w-sm mx-auto rounded-md" />
+            </div>
+          </div>
         </div>
       </div>
+
       <div className="bg-gradient-to-r from-[#2A1535] via-[#2A1535] to-[#261865] text-white py-24 px-4">
-        <div className="max-w-4xl mx-auto my-4 mr-4">
-          <h2 className="text-white text-3xl font-bold mb-4">Community Growth</h2>
-          <p className="text-gray-300 text-lg">
-            Let us help you build a thriving community of engaged and dedicated members. With our experience and connections in the space, we can target contributors and community loyalists to build you a platform with long-term active members. We will work with you to create a community that is aligned with your goals and values.
-          </p>
+        <div className="container mx-auto">
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-16">
+            <div className="overflow-hidden">
+              <img src={commGrowth} alt="Automated Community Moderation & Security" className="max-w-sm mx-auto rounded-md" />
+            </div>
+            <div className="mb-8 lg:mb-0">
+              <h2 className="text-white text-3xl font-bold mb-4">Community Growth</h2>
+              <p className="text-gray-300 text-lg max-w-lg">
+                Let us help you build a thriving community of engaged and dedicated members. With our experience and connections in the space, we can target contributors and community loyalists to build you a platform with long-term active members. We will work with you to create a community that is aligned with your goals and values.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </>
