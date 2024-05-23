@@ -1,39 +1,50 @@
 import React from 'react';
-import teamImage from '../assets/team.jpeg';
+import cooImage from '../assets/onyekaojei.png';
+import writerImage from '../assets/mr-unchained.png'
+import moderatorImage from '../assets/ohgee.png'
+import socialImage from '../assets/kidflamez.png'
+import graphicImage from '../assets/muzaka.png'
+import devImage from '../assets/prosper.png'
+import usteeze from '../assets/usteeze.jpeg'
 
 
 
 const TeamSection = () => {
   const teamMembers = [
     {
-      image: teamImage,
+      image: cooImage,
+      role: 'COO of Wamina',
+      name: 'Onyeka Ojei',
+    },
+    {
+      image: usteeze,
       role: 'COO/ Growth Strategist',
       name: 'Usteeze Chris',
     },
     {
-      image: teamImage,
-      role: 'COO/ Growth Strategist',
-      name: 'Usteeze Chris',
+      image: writerImage,
+      role: 'Writer | Moderator',
+      name: 'Mr Unchained',
     },
     {
-      image: teamImage,
-      role: 'COO/ Growth Strategist',
-      name: 'Usteeze Chris',
+      image: moderatorImage,
+      role: 'Moderator | Social Media Manager',
+      name: 'Ohgee',
     },
     {
-      image: teamImage,
-      role: 'COO/ Growth Strategist',
-      name: 'Usteeze Chris',
+      image: socialImage,
+      role: 'Writer | Social Media Manager | Moderator',
+      name: 'K1DFLAM3Z',
     },
     {
-      image: teamImage,
-      role: 'COO/ Growth Strategist',
-      name: 'Usteeze Chris',
+      image: graphicImage,
+      role: 'Moderator | Writer | Graphic Designer',
+      name: 'Muzaka',
     },
     {
-      image: teamImage,
-      role: 'COO/ Growth Strategist',
-      name: 'Usteeze Chris',
+      image: devImage ,
+      role: 'Developer | Moderator | Writer',
+      name: 'Prosper',
     },
   ];
 

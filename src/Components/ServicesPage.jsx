@@ -1,4 +1,20 @@
 import Header from "./Header";
+import banDes from '../assets/ban-des.png';
+import commGrowth from '../assets/comm-growth.png';
+import commStaff from '../assets/comm-staff.png';
+import contentMkt from '../assets/content-mkt.png';
+import contentWriting from '../assets/content-writing.png';
+import emailMkt from '../assets/email-mkt.png';
+import influencerMkt from '../assets/influencer-mkt.png';
+import logoDes from '../assets/logo-des.png';
+import modeSec from '../assets/mode-sec.png';
+import nftArt from '../assets/nft-art.png';
+import prodDes from '../assets/prod-des.png';
+import socialMgt from '../assets/social-mgt.png';
+import tokenList from '../assets/token-list.png';
+import uiDes from '../assets/ui-des.png';
+import webDev from '../assets/web-dev.png';
+import webSec from '../assets/web-sec.png';
 
 const ServicesPage = () => {
   return (
@@ -13,6 +29,7 @@ const ServicesPage = () => {
           </p>
         </div>
       </div>
+      <h1>sphere</h1>
       <div className="bg-gradient-to-r from-[#2A1535] via-[#2A1535] to-[#261865] text-white py-24 px-4">
         <div className="max-w-4xl mx-auto my-4 mr-8">
           <h2 className="text-white text-3xl font-bold mb-4">Social Media Management</h2>

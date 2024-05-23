@@ -9,11 +9,12 @@ const Community = () => {
         <div className="lg:w-1/2">
           <h2 className="text-3xl font-extrabold text-white sm:text-4xl">Community</h2>
           <p className="mt-3 max-w-3xl text-lg text-gray-300">
-            "Join 10,000+ Community members in learning, earning, and making an impact in the Web3 space."
+            An audience of over 10,000 brilliant minds in Decentralized Finance and Tech.
+            Powered by an academy, a DAO, and a De-Fi & Tech Hub
           </p>
           <p className="mt-4 text-gray-300">
-            Warmina is a community that focuses on creating and sharing opportunities for allied people in the Web3 space. The community was built on the need to grow and connect creators, developers, and digital skill-keepers in the Web3 space. Warmina provides a platform for these incredible talents to connect with each other, share ideas, and collaborate. The community offers immense networking opportunities and educational resources for anyone looking to sharpen their skills.
-          </p>
+            Wanmina is a community that focuses on creating and sharing opportunities for allied people in the Web3 space. The community was built on the need to grow and connect creators, developers, and digital skill-keepers in the Web3 space. Wanmina provides a platform for these incredible talents to connect with each other, share ideas, and collaborate. The community offers immense networking opportunities and educational resources for anyone looking to sharpen their skills.
+          </p> 
           <div className="mt-8">
             <button className="text-white py-3 px-6 rounded-md font-semibold border border-[#DD4C78]">
               Join Us Now
