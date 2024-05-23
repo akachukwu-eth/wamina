@@ -28,8 +28,8 @@ const ServicesPage = () => {
                 'A healthy project needs a healthy community.' It is important for your audience to feel connected to your brand. Wanmina can help you build and manage a healthy community free of toxicity and brimming with activity. Building you a community for life.
               </p>
             </div>
-            <div>
-              <img src={commGrowth} alt="Community Growth" class="max-w-sm mx-auto rounded-md" />
+            <div className="overflow-hidden">
+              <img src={commGrowth} alt="Community Growth" class="max-w-sm my-auto rounded-md" />
             </div>
           </div>
         </div>
