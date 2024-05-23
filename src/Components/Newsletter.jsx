@@ -11,7 +11,7 @@ const Newsletter = () => {
             <input
               type="email"
               placeholder="hello@example.com"
-              className="px-4 py-2 rounded-l-md bg-transparent text-white placeholder-gray-400 outline-2 focus:ring-2 focus:ring-[#DD4C78]"
+              className="px-4 py-2 rounded-l-md text-white placeholder-gray-400 outline-2 focus:ring-0 focus:ring-[#DD4C78]"
             />
             <button className="text-white px-4 py-2 rounded-r-md border border-[#DD4C78]">
               Subscribe

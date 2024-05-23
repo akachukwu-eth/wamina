@@ -5,7 +5,6 @@ import commGrowth from '../assets/comm-growth.png';
 import commStaff from '../assets/comm-staff.png';
 import contentMkt from '../assets/content-mkt.png';
 import contentWriting from '../assets/content-writing.png';
-import emailMkt from '../assets/email-mkt.png';
 import influencerMkt from '../assets/influencer-mkt.png';
 import logoDes from '../assets/logo-des.png';
 import modeSec from '../assets/mode-sec.png';
@@ -28,17 +27,17 @@ const Services = () => {
     {
       name: 'Marketing',
       items: ['Influencer marketing', 'Social media marketing', 'Content marketing', 'Collaborators'],
-      imageUrl: teamImage, // Corrected image path
+      imageUrl: contentMkt, // Corrected image path
     },
     {
       name: 'Web Development',
       items: ['UI/UX designers', 'Full-stack developers', 'Cyber security experts', 'AI programmers'],
-      imageUrl: teamImage, // Corrected image path
+      imageUrl: webDev, // Corrected image path
     },
     {
       name: 'Graphic Design',
       items: ['Banners and flyers', 'NFT creators', '3D modeling experts'],
-      imageUrl: teamImage, // Corrected image path
+      imageUrl: logoDes, // Corrected image path
     },
   ];
 
@@ -48,7 +47,7 @@ const Services = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
         {services.map((service, index) => (
           <div key={index} className="max-w-sm rounded overflow-hidden shadow-lg border-2 border-[#B0186A]">
-            <img src={service.imageUrl} alt={service.name} className="w-full" />
+            <img src={service.imageUrl} alt={service.name} className="w-full h-1/2" />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">{service.name}</div>
               <ul className="list-disc pl-4">
